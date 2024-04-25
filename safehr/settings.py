@@ -83,28 +83,16 @@ DATABASES = {
             'PASSWORD': 'academic2024CS680!',
             'HOST': 'campus-quest.com',
             'PORT': '20010',
-        },
-    }
-
-"""
-# MSSQL Database
-# Documentation: https://pypi.org/project/mssql-django/
-DATABASES = {
-        'default': {
-            'ENGINE': 'mssql',
-            'NAME': 'SAFEHR',
-            'USER': 'sa',
-            'PASSWORD': 'academic2024CS680!',
-            'HOST': 'campus-quest.com',
-            'PORT': '20011',
 
             'OPTIONS': {
-                'driver': 'ODBC Driver 17 for SQL Server',
-            },
-        },
+            'sql_mode': 'STRICT_TRANS_TABLES',
+            }
+
+
+        }
     }
 
-"""
+
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
