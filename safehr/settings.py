@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 
 from pathlib import Path
 
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -37,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
     'backendapp',
 ]
 
@@ -71,21 +73,38 @@ TEMPLATES = [
 WSGI_APPLICATION = 'safehr.wsgi.application'
 
 
-# Database
-# https://docs.djangoproject.com/en/5.0/ref/settings/#databases
-
+# MySQL Database
+# Documentation: https://pypi.org/project/mysqlclient/
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'safehr',
-        'USER': 'root',
-        'PASSWORD': 'Bolanle',
-        'HOST': 'localhost',
-        'PORT': '3306',
-        }
+        'default': {
+            'ENGINE': 'django.db.backends.mysql',
+            'NAME': 'Safehr',
+            'USER': 'root',
+            'PASSWORD': 'academic2024CS680!',
+            'HOST': 'campus-quest.com',
+            'PORT': '20010',
+        },
     }
-    
 
+"""
+# MSSQL Database
+# Documentation: https://pypi.org/project/mssql-django/
+DATABASES = {
+        'default': {
+            'ENGINE': 'mssql',
+            'NAME': 'SAFEHR',
+            'USER': 'sa',
+            'PASSWORD': 'academic2024CS680!',
+            'HOST': 'campus-quest.com',
+            'PORT': '20011',
+
+            'OPTIONS': {
+                'driver': 'ODBC Driver 17 for SQL Server',
+            },
+        },
+    }
+
+"""
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
