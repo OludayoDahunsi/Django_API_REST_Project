@@ -29,5 +29,24 @@ class Person(models.Model):
     email = models.EmailField(max_length=255, blank=True)
 
 
+class Person_Address(models.Model):
+    Address_ID = models.CharField(max_length=100)
+    E_Mail = models.CharField(max_length=100, help_text='TODO: remove this column in favor of person.email')
+    address_type_id = models.CharField(max_length=100)
+    Person_ID = models.CharField(max_length=100)
 
 
+class Person_Organization(models.Model):
+    organization_id = models.CharField(max_length=100)
+    Relationship_Type = models.CharField(max_length=100)
+    Relationship_Status = models.CharField(max_length=100)
+    Person_ID = models.CharField(max_length=100)
+    
+
+
+class Person_Phone(models.Model):
+    Phone_Number = models.CharField(max_length=100)
+    Type = models.CharField(max_length=100)
+    Person_ID = models.CharField(max_length=100)
+
+            

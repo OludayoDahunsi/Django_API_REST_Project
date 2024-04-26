@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'safehr.wsgi.application'
 DATABASES = {
         'default': {
             'ENGINE': 'mssql',
-            'NAME': 'SAFEHRMG',
+            'NAME': 'SAFEHR2',
             'USER': 'sa',
             'PASSWORD': 'academic2024CS680!',
             'HOST': 'campus-quest.com',
