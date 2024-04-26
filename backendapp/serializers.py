@@ -42,7 +42,7 @@ class Organization_AddressSerializer(serializers.ModelSerializer):
 class DiagnosticSerializer(serializers.ModelSerializer):
     class Meta:
         model = Diagnostic
-        field = ('id','Dcode','Name')
+        field = ('id','DCode','Name')
 
 class FamilySerializer(serializers.ModelSerializer):
     class Meta:
