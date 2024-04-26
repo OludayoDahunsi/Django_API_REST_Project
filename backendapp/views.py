@@ -1,7 +1,10 @@
 from django.shortcuts import render
 from rest_framework import viewsets
+
 from .models import Person
 from .serializers import PersonSerializer
+
+"""
 #from .models import Address
 from .models import Person_Historical_Diagnostic
 from .serializers import Person_Historical_DiagnosticSerializer
@@ -28,7 +31,7 @@ from .serializers import Person_AddressSerializer
 
 #from .models import Clinic
 #from .models import Clinic_Staff
-
+"""
 
 
 # Create your views here.
@@ -37,7 +40,7 @@ class PersonView(viewsets.ModelViewSet):
     queryset = Person.objects.all()
     serializer_class = PersonSerializer
 
-
+"""
 class Person_Historical_DiagnosticView(viewsets.ModelViewSet):
     queryset = Person_Historical_Diagnostic.objects.all()
     serializer_class = Person_Historical_DiagnosticSerializer
@@ -79,3 +82,4 @@ class Person_AddressView(viewsets.ModelViewSet):
     queryset = Person_Address.objects.all()
     serializer_class = Person_AddressSerializer
 
+"""
