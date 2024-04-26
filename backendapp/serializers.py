@@ -12,15 +12,3 @@ class PersonSerializer(serializers.ModelSerializer):
 
 
 
-
-class Organization_AddressSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Organization_Address
-        fields = ('id', 'id', 'Type', 'organization_id', 'Address_ID')
-
-
-
-class DiagnosticSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Diagnostic
-        fields = ('id','DCode','Name')

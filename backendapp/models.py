@@ -30,16 +30,4 @@ class Person(models.Model):
 
 
 
-class Organization_Address(models.Model):
-    Type = models.CharField(max_length=100)
-    organization_id = models.IntegerField()
-    Address_ID = models.IntegerField()
-
-
-
-class Diagnostic(models.Model):
-    DCode = models.AutoField(primary_key=True)
-    Name = models.CharField(max_length=100)
-
-
 
