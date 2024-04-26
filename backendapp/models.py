@@ -30,13 +30,14 @@ class Person(models.Model):
 
 
 
-class Address(models.Model):
+"""class Address(models.Model):
     Address_ID = models.AutoField(primary_key=True)
     Street_Address = models.CharField(max_length=100)
     City = models.CharField(max_length=200)
     State = models.CharField(max_length=200)
     Zip_Code = models.CharField(max_length=100)
     Country = models.CharField(max_length=200)
+"""
 
 
 class Person_Historical_Diagnostic(models.Model):
@@ -91,7 +92,7 @@ class Person_Address(models.Model):
     address_type_id = models.IntegerField()
     Person_ID = models.IntegerField()
 
-
+"""
 class Clinic(models.Model):
     clinicid = models.AutoField(primary_key=True)
     Name = models.CharField(max_length=100)
@@ -102,7 +103,7 @@ class Clinic_Staff(models.Model):
     clinicid = models.IntegerField()
     Emp_ID = models.IntegerField()
 
-
+"""
 
 
 

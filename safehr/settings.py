@@ -73,23 +73,21 @@ TEMPLATES = [
 WSGI_APPLICATION = 'safehr.wsgi.application'
 
 
-# MySQL Database
-# Documentation: https://pypi.org/project/mysqlclient/
+# MSSQL Database
+# Documentation: https://pypi.org/project/mssql-django/
 DATABASES = {
         'default': {
-            'ENGINE': 'django.db.backends.mysql',
-            'NAME': 'Safehr',
-            'USER': 'root',
+            'ENGINE': 'mssql',
+            'NAME': 'SAFEHRMG',
+            'USER': 'sa',
             'PASSWORD': 'academic2024CS680!',
             'HOST': 'campus-quest.com',
-            'PORT': '20010',
+            'PORT': '20011',
 
             'OPTIONS': {
-            'sql_mode': 'STRICT_TRANS_TABLES',
-            }
-
-
-        }
+                'driver': 'ODBC Driver 17 for SQL Server',
+            },
+        },
     }
 
 
