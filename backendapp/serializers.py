@@ -1,8 +1,5 @@
 from rest_framework import serializers
 from .models import Person
-from .models import Organization_Address
-from .models import Diagnostic
-
 
 
 class PersonSerializer(serializers.ModelSerializer):

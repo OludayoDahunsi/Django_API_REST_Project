@@ -3,12 +3,12 @@ from . import views
 from rest_framework import routers
 
 router = routers.DefaultRouter()
-router.register('Persons', views.PersonView)
+router.register('Personapi', views.PersonView)
 
 
 urlpatterns = [
 
-    path ('', include(router.urls)),
+    path ('', include(router.urls))
 
     
 ]
