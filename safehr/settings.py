@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'safehr.wsgi.application'
 DATABASES = {
         'default': {
             'ENGINE': 'mssql',
-            'NAME': 'SAFEHRMG',
+            'NAME': 'SAFEHR',
             'USER': 'sa',
             'PASSWORD': 'academic2024CS680!',
             'HOST': 'campus-quest.com',
@@ -86,8 +86,8 @@ DATABASES = {
 
             'OPTIONS': {
                 'driver': 'ODBC Driver 17 for SQL Server',
-            },
-        },
+            }
+        }
     }
 
 
