@@ -13,10 +13,11 @@ from .models import Person_Address
 #from .models import Clinic_Staff
 
 
-class PersonSerializer(serializers.ModelSerializer)
+class PersonSerializer(serializers.ModelSerializer):
     class Meta:
         model = Person
         field = ('id','Person_ID','LName','FName','Age','Gender','DOB','Religion','DOD Date','YearsEducation','Ethnicity','Image','Genogram_Image','Ecomp_Image','Email')
+
 
 """"
 class AddressSerializer(serializers.ModelSerializer)
@@ -25,6 +26,10 @@ class AddressSerializer(serializers.ModelSerializer)
         field = ('id','Address_ID','Street_Address','City','State','Zip_Code','Country')
 """
 
+class Person_Historical_DiagnosticSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Person_Historical_Diagnostic
+        field = ('id','Dcode','Person_ID','Diagnosed_Date','Recovery_Status')
 
 
 class Organization_AddressSerializer(serializers.ModelSerializer):
@@ -34,6 +39,15 @@ class Organization_AddressSerializer(serializers.ModelSerializer):
 
 
 
+class DiagnosticSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Diagnostic
+        field = ('id','Dcode','Name')
+
+class FamilySerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Family
+        field = ('id','Family_ID','Family_Name')
 
 
 class Person_OrganizationSerializer(serializers.ModelSerializer):
