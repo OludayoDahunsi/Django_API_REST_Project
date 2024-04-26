@@ -27,7 +27,7 @@ class AddressSerializer(serializers.ModelSerializer)
 
 
 
-class Organization_AddressSerializer(serializers.ModelSerializer)
+class Organization_AddressSerializer(serializers.ModelSerializer):
     class Meta:
         model = Organization_Address
         field = ('id', 'id', 'Type', 'organization_id', 'Address_ID')
@@ -36,43 +36,29 @@ class Organization_AddressSerializer(serializers.ModelSerializer)
 
 
 
-class Person_OrganizationSerializer(serializers.ModelSerializer)
+class Person_OrganizationSerializer(serializers.ModelSerializer):
     class Meta:
         model = Person_Organization
         field = ('id', 'organization_id', 'Relationship_Type', 'Relationship_Status', 'Person_ID')
 
 
-class Person_PhoneSerializer(serializers.ModelSerializer)
+class Person_PhoneSerializer(serializers.ModelSerializer):
     class Meta:
         model = Person_Phone
         field = ('id', 'Phone_Number', 'Type', 'Person_ID')
 
 
 
-class Address_TypeSerializer(serializers.ModelSerializer)
+class Address_TypeSerializer(serializers.ModelSerializer):
     class Meta:
         model = Address_Type
         field = ('id', 'address_type_id', 'name')
 
 
-class Person_AddressSerializer(serializers.ModelSerializer)
+class Person_AddressSerializer(serializers.ModelSerializer):
     class Meta:
         model = Person_Address
         field = ('id', 'Address_ID', 'organization_id', 'E_Mail', 'address_type_id', 'Person_ID')
 
 
     
-    
-class PersonSerializer(serializers.ModelSerializer)
-class PersonSerializer(serializers.ModelSerializer)
-class PersonSerializer(serializers.ModelSerializer)
-class PersonSerializer(serializers.ModelSerializer)
-class PersonSerializer(serializers.ModelSerializer)
-class PersonSerializer(serializers.ModelSerializer)
-class PersonSerializer(serializers.ModelSerializer)
-class PersonSerializer(serializers.ModelSerializer)
-class PersonSerializer(serializers.ModelSerializer)
-class PersonSerializer(serializers.ModelSerializer)
-class PersonSerializer(serializers.ModelSerializer)
-class PersonSerializer(serializers.ModelSerializer)
-class PersonSerializer(serializers.ModelSerializer)
