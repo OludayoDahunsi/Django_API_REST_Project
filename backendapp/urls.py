@@ -2,8 +2,9 @@ from django.urls import path, include
 from . import views
 from rest_framework import routers
 
+
 router = routers.DefaultRouter()
-router.register('Personapi', views.PersonView)
+router.register('Persons', views.PersonView)
 
 
 urlpatterns = [

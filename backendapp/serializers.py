@@ -5,7 +5,7 @@ from .models import Person
 class PersonSerializer(serializers.ModelSerializer):
     class Meta:
         model = Person
-        fields = ('id','Person_ID','LName','FName','Age','Gender','DOB','Religion','DOD Date','YearsEducation','Ethnicity','Image','Genogram_Image','Ecomp_Image','Email')
+        fields = ('Person_ID','LName','FName','age','Gender','DOB','Religion','DOD','YearsEducation','Ethnicity','Image','Genogram_Image','Ecomap_Image','email')
 
 
 
