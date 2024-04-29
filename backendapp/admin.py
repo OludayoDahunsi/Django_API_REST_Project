@@ -4,8 +4,13 @@ from .models import Person_Address
 from .models import Person_Organization
 from .models import Person_Phone
 from .models import Person_Historical_Diagnostic
+from .models import Address
+from .models import Diagnostic
+from .models import Organization_Address
 from .models import Clinic
 from .models import Clinic_Staff
+
+
 
 
 
@@ -15,5 +20,10 @@ admin.site.register(Person_Address)
 admin.site.register(Person_Organization)
 admin.site.register(Person_Phone)
 admin.site.register(Person_Historical_Diagnostic)
+admin.site.register(Address)
+admin.site.register(Diagnostic)
+admin.site.register(Organization_Address)
 admin.site.register(Clinic)
 admin.site.register(Clinic_Staff)
+
+

@@ -19,6 +19,16 @@ from .serializers import Person_PhoneSerializer
 from .models import Person_Historical_Diagnostic
 from .serializers import Person_Historical_DiagnosticSerializer
 
+
+from .models import Address
+from .serializers import AddressSerializer
+
+from .models import Diagnostic
+from .serializers import DiagnosticSerializer
+
+from .models import Organization_Address
+from .serializers import Organization_AddressSerializer
+
 from .models import Clinic
 from .serializers import ClinicSerializer
 
@@ -51,6 +61,21 @@ class Person_PhoneView(viewsets.ModelViewSet):
 class Person_Historical_DiagnosticView(viewsets.ModelViewSet):
     queryset = Person_Historical_Diagnostic.objects.all()
     serializer_class = Person_Historical_DiagnosticSerializer
+
+
+class AddressView(viewsets.ModelViewSet):
+    queryset = Address.objects.all()
+    serializer_class = AddressSerializer
+
+
+class DiagnosticView(viewsets.ModelViewSet):
+    queryset = Diagnostic.objects.all()
+    serializer_class = DiagnosticSerializer
+
+
+class Organization_AddressView(viewsets.ModelViewSet):
+    queryset = Organization_Address.objects.all()
+    serializer_class = Organization_AddressSerializer
 
 
 class ClinicView(viewsets.ModelViewSet):

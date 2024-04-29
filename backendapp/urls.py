@@ -9,6 +9,9 @@ router.register('Person_Address', views.Person_AddressView)
 router.register('Person_Organization', views.Person_OrganizationView)
 router.register('Person_Phone', views.Person_PhoneView)
 router.register('Person_Historical_Diagnostic', views.Person_Historical_DiagnosticView)
+router.register('Address', views.AddressView)
+router.register('Diagnostic', views.DiagnosticView)
+router.register('Organization_Address', views.Organization_AddressView)
 router.register('Clinic', views.ClinicView)
 router.register('Persons', views.Clinic_StaffView)
 
@@ -20,3 +23,4 @@ urlpatterns = [
 
     
 ]
+

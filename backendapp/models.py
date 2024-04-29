@@ -59,8 +59,31 @@ class Person_Historical_Diagnostic(models.Model):
 
 
 
+class Address(models.Model):
+    Address_ID = models.AutoField(primary_key=True)
+    Street_Address = models.CharField(max_length=100)
+    City = models.CharField(max_length=200)
+    State = models.CharField(max_length=200)
+    Zip_Code = models.CharField(max_length=100)
+    Country = models.CharField(max_length=100)
+
+
+class Diagnostic(models.Model):
+    Dcode = models.AutoField(primary_key=True)
+    Name = models.CharField(max_length=100)
+
+
+
+class Organization_Address(models.Model):
+    Type = models.CharField(max_length=100)
+    organization_id = models.IntegerField()
+    Address_ID = models.IntegerField()
+
+
+
+
 class Clinic(models.Model):
-    clinicid = models.AutoField(primary_key=True)
+    clinicid = models.AutoField(max_length=100)
     Name = models.CharField(max_length=100)
 
 
