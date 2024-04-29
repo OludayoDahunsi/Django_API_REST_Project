@@ -49,4 +49,26 @@ class Person_Phone(models.Model):
     Type = models.CharField(max_length=100)
     Person_ID = models.CharField(max_length=100)
 
+
+
+class Person_Historical_Diagnostic(models.Model):
+    Dcode = models.CharField(max_length=100)
+    Person_ID = models.CharField(max_length=100)
+    Diagnosed_Date = models.CharField(max_length=100)
+    Recovery_Status = models.CharField(max_length=100)
+
+
+
+class Clinic(models.Model):
+    clinicid = models.AutoField(primary_key=True)
+    Name = models.CharField(max_length=100)
+
+
+
+class Clinic_Staff(models.Model):
+    clinicid = models.CharField(max_length=100)
+    Emp_ID = models.CharField(max_length=100)
+
+
+
             

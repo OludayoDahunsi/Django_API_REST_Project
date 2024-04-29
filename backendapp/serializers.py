@@ -3,6 +3,9 @@ from .models import Person
 from .models import Person_Address
 from .models import Person_Organization
 from .models import Person_Phone
+from .models import Person_Historical_Diagnostic
+from .models import Clinic
+from .models import Clinic_Staff
 
 
 
@@ -29,3 +32,20 @@ class Person_PhoneSerializer(serializers.ModelSerializer):
     class Meta:
         model = Person_Phone
         fields = ('Phone_Number','Type','Person_ID')
+
+class Person_Historical_DiagnosticSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Person_Historical_Diagnostic
+        fields = ('Dcode','Person_ID','Diagnosed_Date', 'Recovery_Status')
+
+
+class ClinicSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Clinic
+        fields = ('clinicid','Name')
+
+
+class Clinic_StaffSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Clinic_Staff
+        fields = ('clinicid','Emp_ID')
