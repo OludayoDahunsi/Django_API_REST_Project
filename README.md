@@ -45,42 +45,42 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Cloning the repository
 This step-by-step series shows you how to get a development environment running:
-1. Install dependencies
+a. Install dependencies
   - Python 3.12.3
-2. Install Container and Database client
+b. Install Container and Database client
   - Docker Container (Docker Hub)
   - Microsoft SQL Server
   - MySQL Workbench
-3. Clone the repository
-4. Activate the virtual environment.
+c. Clone the repository
+d. Activate the virtual environment.
     ###  Running from Git bash.
     `source venv/Script/activate`
     ###  Running from the VScode terminal
     `cd venv/Script/activate`
-5. Run the server
+e. Run the server
     ###  Running the server
     `python manage.py runserver`
 
-### Installing Afresh
+### DJANGO fresh Installations
 Create a project folder
-1. Install dependencies
+a. Install dependencies
   - Python 3.12.3
-2. Setting up the virtual environment for the project
+b. Setting up the virtual environment for the project
     `python -m venv venv`
    Activate the virtual environment
     ###  Running from Git bash.
     `source venv/Script/activate`
     ###  Running from the VScode terminal
     `cd venv/Script/activate`
-3. Django Installation
+c. Django Installation
     `pip install Django`
-4. Installing the Django REST framework
+d. Installing the Django REST framework
 `pip install Djangorestframework`
 
-  ### Creating the SAFEHR project folder
+    ### Creating the SAFEHR project folder
       `django-admin startproject Safehr .`
 
-5. Adding the rest framework into your settings
+e. Adding the rest_framework into your settings
    
     ```
     INSTALLED_APPS = [
@@ -94,9 +94,9 @@ Create a project folder
     'backendapp',
     ]
 
-6. Running the Server for Git Bash or terminal
+f. Running the Server for Git Bash or terminal
    `wintpty python manage.py runserver` OR
-    `python manage.py runserver` OR
+   `python manage.py runserver`
     
   
 9. Install Container and Database clients
