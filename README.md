@@ -80,24 +80,30 @@ Create a project folder
   ### Creating the SAFEHR project folder
       `django-admin startproject Safehr .`
 
-5. Adding the rest framework into you settings
+5. Adding the rest framework into your settings
    
      ` INSTALLED_APPS = [
    'rest_framework', ] `
+6. Running the Server
+   `python manage.py runserver`
   
-5. Install Container and Database clients
+9. Install Container and Database clients
   - Docker Container (Docker Hub)
   - Microsoft SQL Server
   - MySQL Workbench
 
-Navigate the manage.py directory
+Install Other Dependencies
    - 
+   
+ ### Creating Django App
+     `  python manage.py startapp Backendapp ` 
+
+
+
+## Installing other dependencies
+## Setting up the database
+## Other necessary configuration
     
-    
-  - 
-
-
-
 ## 3. Usage
 Explain how to use the system. This could include:
 
