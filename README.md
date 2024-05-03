@@ -43,23 +43,32 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Cloning the repository Or Installing Afresh
 
-#### Cloning the repository
+### Cloning the repository
 This step-by-step series shows you how to get a development environment running:
+1. Install dependencies
+  - Python 3.12.3
+2. Install Container and Database client
+  - Docker Container (Docker Hub)
+  - Microsoft SQL Server
+  - MySQL Workbench
+3. Clone the repository
+4. Activate the virtual environment.
+###  Running from Git bash.
+`source venv/Script/activate`
+###  Running from the VScode terminal
+`cd venv/Script/activate`
+5. Run the server
+###  Running the server
+`python manage.py runserver`
+
+### Installing Afresh
+Create a project folder
 1. Install dependencies
   - Python 3.12.3
   - Docker Container (Docker Hub)
   - Microsoft SQL Server
   - MySQL Workbench
-2. Clone the repository
-3. Activate the virtual environment.
-###  Running from Git bash.
-`source venv/Script/activate`
-
-###  Running from the VScode terminal
-`cd venv/Script/activate`
-4. Run the server
-###  Running the server
-`python manage.py runserver`
+2. 
 
 
 
