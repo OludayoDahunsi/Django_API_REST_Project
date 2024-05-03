@@ -53,10 +53,10 @@ This step-by-step series shows you how to get a development environment running:
   - MySQL Workbench
 3. Clone the repository
 4. Activate the virtual environment.
-###  Running from Git bash.
-`source venv/Script/activate`
-###  Running from the VScode terminal
-`cd venv/Script/activate`
+    ###  Running from Git bash.
+    `source venv/Script/activate`
+    ###  Running from the VScode terminal
+    `cd venv/Script/activate`
 5. Run the server
 ###  Running the server
 `python manage.py runserver`
