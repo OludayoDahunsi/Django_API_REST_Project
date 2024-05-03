@@ -94,8 +94,10 @@ Create a project folder
     'backendapp',
     ]
 
-6. Running the Server
-   `python manage.py runserver`
+6. Running the Server for Git Bash or terminal
+   `wintpty python manage.py runserver` OR
+    `python manage.py runserver` OR
+    
   
 9. Install Container and Database clients
   - Docker Container (Docker Hub)
