@@ -118,12 +118,12 @@ Install Other Dependencies
 
 ## 3. Build the  API Endpoints using Django REST Framework:
 This process of building the endpoints involves creating API 
-    ```
-     - #### Views: view.py  This handles the request and response for webpage application
-     - #### Serializers: serializers -  
-      #### setting up models: models.py This is used to define the data models for the app
-      #### Url - 
-      #### Admin -admin.py This is where models are registered
+  
+     - Views: view.py  This handles the request and response for webpage application
+     - Serializers: serializers -  
+     - Setting up models: models.py This is used to define the data models for the app
+     - Url - 
+     - Admin -admin.py This is where models are registered
       #### and permissions. You can also use generics, mixins, view sets, and routers to simplify your API code
 
       
