@@ -82,8 +82,16 @@ Create a project folder
 
 5. Adding the rest framework into your settings
    
-     ` ` ` INSTALLED_APPS = [
-   'rest_framework', ] ` ` `
+    ```INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'rest_framework',
+    'backendapp',
+] ```
 6. Running the Server
    `python manage.py runserver`
   
