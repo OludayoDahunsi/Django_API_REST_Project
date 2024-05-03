@@ -1,5 +1,6 @@
 ## 1. Introduction
-# Project Name: SAFEHR – Backend Functionality Evaluation (Focus - SAFEHR Framework Migration and Functionality Enhancement)
+# Project Name: SAFEHR – Backend Functionality Evaluation 
+(Project Focus - SAFEHR Framework Migration and Functionality Enhancement)
 
 This project is about the SAFEHR application used by the  Minnesota State University, Mankato School of Nursing Program. The SAFEHR
 application is simulated electronic health records that provide students with a virtual environment to practice clinical simulation 
