@@ -2,9 +2,18 @@
 Start with an introduction that explains what the project is about. Include the purpose of the project and its scope.
 
 ```markdown
-# Project Name
+# Project Name : 
 This project is a RESTful API built with Django and Django REST Framework. It is designed to ...
 ```
+
+This project is about the SAFEHR application used by the  Minnesota State University, Mankato School of Nursing Program. The SAFEHR
+application is a simulated electronic health records that provide students with a virtual environment to practice clinical simulation functionalities scenarios.
+
+The software currently runs a deprecated version of the Sencha Torch framework and an older version of Laravel, which no longer has mainstream 
+support and has reached its end of life. This makes this program unreliable and an insecure stack of technology.
+
+### Project Purpose
+The purpose of the project is to evaluate the current existing backend functionality and source code artifacts. Re-engineer the
 
 ## 2. Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing. The follow prerequisites
