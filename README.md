@@ -15,8 +15,15 @@ The purpose of the project is to evaluate the current existing backend functiona
 - Migrate the SAFEHR Endpoint to a new mainstream framework and
 - Enhance the functionalities
 
-This project will be rebuilt to utilize the  RESTful API built with Django and Django REST Framework. I
+This project will be rebuilt to utilize the following framework:
+- Django RESTful API and
+- Django REST Framework
 
+The project will be containerized
+- Docker Container
+
+The endpoints will be tested
+- Postman
 
 
 ## 2. Getting Started
