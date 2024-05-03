@@ -39,9 +39,7 @@ These instructions will get you a copy of the project up and running on your loc
 - Git Bash
 - Postman
 
-### If you decide to clone the repository, and run in a containerized environment. You do not need a fresh install of the Django and Django REST Framework 
-
-### Cloning the repository Or Installing Afresh
+### If you clone the repository, run it in a containerized environment. You do not need a fresh install of the Django and Django REST Framework (Ways to access the project is by cloning the repository Or Setting up the a fresh environment
 
 ### Cloning the repository
 This step-by-step series shows you how to get a development environment running:
@@ -51,15 +49,14 @@ This step-by-step series shows you how to get a development environment running:
   - Docker Container (Docker Hub)
   - Microsoft SQL Server
   - MySQL Workbench
-#### Clone the repository
+#### Clone the repository for the GitHub
 #### Activate the virtual environment.
     ###  Running from Git bash.
-    `source venv/Script/activate`
+    ` source venv/Script/activate `
     ###  Running from the VScode terminal
-    `cd venv/Script/activate`
-e. Run the server
-    ###  Running the server
-    `python manage.py runserver`
+    ` cd venv/Script/activate `
+#### Run the server
+    ` python manage.py runserver `
 
 ### DJANGO fresh Installations
 Create a project folder
