@@ -43,6 +43,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Cloning the repository Or Installing Afresh
 
+#### Cloning the repository
 This step-by-step series shows you how to get a development environment running:
 1. Install dependencies
   - Python 3.12.3
@@ -50,12 +51,16 @@ This step-by-step series shows you how to get a development environment running:
   - Microsoft SQL Server
   - MySQL Workbench
 2. Clone the repository
-3. Run the server
-###  Running from Git bash, activate the virtual environment.
+3. Activate the virtual environment.
+###  Running from Git bash.
 `source venv/Script/activate`
 
 ###  Running from the VScode terminal
 `cd venv/Script/activate`
+4. Run the server
+###  Running the server
+`python manage.py runserver`
+
 
 
 
