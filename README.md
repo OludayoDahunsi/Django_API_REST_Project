@@ -7,14 +7,9 @@ This project is a RESTful API built with Django and Django REST Framework. It is
 ```
 
 ## 2. Getting Started
-Provide instructions on how to get a copy of the project up and running on the user's local machine for development and testing purposes.
+These instructions will get you a copy of the project up and running on your local machine for development and testing. The follow prerequisites
 
-```markdown
-## Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
-### Prerequisites
-What things you need to install the software and how to install them:
+### Prerequisites software
 - Python 3.12.3
 - Django
 - Django REST Framework
@@ -23,12 +18,22 @@ What things you need to install the software and how to install them:
 - Docker Container
 - Postman
 
+### If you decide to clone the repository, You need not install the Django and Django REST Framework
+- Python 3.12.3
+- Install the GitHub Desktop
+- Docker Container
+- Postman
+
+
+
 ### Installing
 A step by step series of examples that tell you how to get a development environment running:
 1. Clone the repository
 2. Install dependencies
+  - Python 3.12.3
 3. Run the server
 ```
+
 
 ## 3. Usage
 Explain how to use the system. This could include:
