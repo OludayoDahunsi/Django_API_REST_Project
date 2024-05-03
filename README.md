@@ -16,6 +16,7 @@ These instructions will get you a copy of the project up and running on your loc
 - Microsoft SQL Server
 - MySQL Workbench
 - Docker Container
+- Git Bash
 - Postman
 
 ### If you decide to clone the repository, You need not install the Django and Django REST Framework
@@ -25,14 +26,22 @@ These instructions will get you a copy of the project up and running on your loc
 - Postman
 
 
-
 ### Installing
 A step by step series of examples that tell you how to get a development environment running:
 1. Clone the repository
 2. Install dependencies
   - Python 3.12.3
 3. Run the server
-```
+   From git bash, activate the virtual environment.
+   cd c" 
+   source venv/Script/
+
+   Navigate the manage.py directory
+   - 
+    
+    
+  - 
+
 
 
 ## 3. Usage
