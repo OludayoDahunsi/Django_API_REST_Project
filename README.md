@@ -65,7 +65,7 @@ A step by step series of examples that tell you how to get a development environ
 
 ###  Running from the VScode terminal
 - Navigate to the virtual directory
-  `cd venv/Script/activate`
+`cd venv/Script/activate`
 
 
 
