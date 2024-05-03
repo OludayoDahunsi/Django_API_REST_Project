@@ -58,17 +58,25 @@ This step-by-step series shows you how to get a development environment running:
     ###  Running from the VScode terminal
     `cd venv/Script/activate`
 5. Run the server
-###  Running the server
-`python manage.py runserver`
+    ###  Running the server
+    `python manage.py runserver`
 
 ### Installing Afresh
 Create a project folder
 1. Install dependencies
   - Python 3.12.3
+2. Setting up the virtual environment for the project
+    `python -m venv venv`
+   Activate the virtual environment
+    ###  Running from Git bash.
+    `source venv/Script/activate`
+    ###  Running from the VScode terminal
+    `cd venv/Script/activate`
+3. 
+2. Install Container and Database client
   - Docker Container (Docker Hub)
   - Microsoft SQL Server
   - MySQL Workbench
-2. 
 
 
 
