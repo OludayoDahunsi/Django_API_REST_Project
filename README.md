@@ -45,14 +45,14 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Cloning the repository
 This step-by-step series shows you how to get a development environment running:
-a. Install dependencies
+#### Install dependencies
   - Python 3.12.3
-b. Install Container and Database client
+#### Install Container and Database client
   - Docker Container (Docker Hub)
   - Microsoft SQL Server
   - MySQL Workbench
-c. Clone the repository
-d. Activate the virtual environment.
+#### Clone the repository
+#### Activate the virtual environment.
     ###  Running from Git bash.
     `source venv/Script/activate`
     ###  Running from the VScode terminal
