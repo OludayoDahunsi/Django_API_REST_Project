@@ -16,8 +16,8 @@ The purpose of the project is to evaluate the current existing backend functiona
 - Enhance the functionalities
 
 This project will be rebuilt to utilize the following framework:
-- Django RESTful API and
-- Django REST Framework
+- Django and
+- Django REST API Framework
 
 The project will be containerized
 - Docker Container
@@ -72,7 +72,9 @@ Create a project folder
     `source venv/Script/activate`
     ###  Running from the VScode terminal
     `cd venv/Script/activate`
-3. 
+3. Django Installation
+    `pip install Django`
+4. Installing Django REST framework
 2. Install Container and Database client
   - Docker Container (Docker Hub)
   - Microsoft SQL Server
