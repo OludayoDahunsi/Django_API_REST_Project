@@ -91,7 +91,8 @@ Create a project folder
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'backendapp',] ```
+    'backendapp',
+    ]
 
 6. Running the Server
    `python manage.py runserver`
