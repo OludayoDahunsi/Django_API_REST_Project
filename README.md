@@ -74,8 +74,13 @@ Create a project folder
     `cd venv/Script/activate`
 3. Django Installation
     `pip install Django`
-4. Installing Django REST framework
-2. Install Container and Database client
+4. Installing the Django REST framework
+`pip install Djangorestframework`
+
+  ### Creating the SAFEHR project folder
+      `django-admin startproject Safehr .`
+  
+5. Install Container, Database clients and Other dependancies
   - Docker Container (Docker Hub)
   - Microsoft SQL Server
   - MySQL Workbench
