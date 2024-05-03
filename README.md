@@ -11,7 +11,7 @@ support and has reached its end of life. This makes this program unreliable and 
 
 ### Project Purpose and scope
 The purpose of the project is to evaluate the current existing backend functionality and source code artifacts. 
-- Re-engineer the SAFEHR backend endpoint,
+- Reengineer the SAFEHR backend endpoint,
 - Migrate the SAFEHR Endpoint to a new mainstream framework and
 - Enhance the functionalities
 
@@ -108,11 +108,11 @@ Install Other Dependencies
 
 ## 3. Build the  API Endpoints using Django REST Framework:
 This process of building the endpoints involves creating API 
-      - Views: view.py - This handles the request and response for webpage application
+      - Views: view.py  This handles the request and response for webpage application
       - Serializers: serializers -  
-      - setting up models: models.py - This is used to define the data models for the app
+      - setting up models: models.py This is used to define the data models for the app
       - Url - 
-      - Admin -admin.py - This is where models are registered
+      - Admin -admin.py This is where models are registered
       - and permissions. You can also use generics, mixins, view sets, and routers to simplify your API code
 ## 3. Usage
 Explain how to use the system. This could include:
