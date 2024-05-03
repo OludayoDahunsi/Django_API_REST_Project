@@ -39,7 +39,7 @@ These instructions will get you a copy of the project up and running on your loc
 - Git Bash
 - Postman
 
-### If you clone the repository, run it in a containerized environment. You do not need a fresh install of the Django and Django REST Framework (Ways to access the project is by cloning the repository Or Setting up the a fresh environment
+### If you clone the repository, run it in a containerized environment. You do not need a fresh install of the Django and Django REST Framework. (One way to access the project is by cloning the repository Or Setting up a fresh environment.)
 
 ### Cloning the repository
 This step-by-step series shows you how to get a development environment running:
@@ -59,26 +59,25 @@ This step-by-step series shows you how to get a development environment running:
     ` python manage.py runserver `
 
 ### DJANGO fresh Installations
-Create a project folder
-a. Install dependencies
-  - Python 3.12.3
-b. Setting up the virtual environment for the project
+- Create a project folder and Install dependencies
+  - Python 3.12.3 is installed for this project
+- Setting up the virtual environment for the project
     `python -m venv venv`
-   Activate the virtual environment
-    ###  Running from Git bash.
+
+- Activate the virtual environment
+    ####  Running from Git bash.
     `source venv/Script/activate`
-    ###  Running from the VScode terminal
+    ####  Running from the VScode terminal
     `cd venv/Script/activate`
-c. Django Installation
+- Django Installation
     `pip install Django`
-d. Installing the Django REST framework
-`pip install Djangorestframework`
+- Installing the Django REST framework
+    `pip install Djangorestframework`
 
-    ### Creating the SAFEHR project folder
-      `django-admin startproject Safehr .`
+- Creating the SAFEHR project folder
+   `django-admin startproject Safehr .`
 
-e. Adding the rest_framework into your settings
-   
+- Adding the rest_framework into your settings
     ```
     INSTALLED_APPS = [
     'django.contrib.admin',
@@ -91,12 +90,11 @@ e. Adding the rest_framework into your settings
     'backendapp',
     ]
 
-f. Running the Server for Git Bash or terminal
+- Running the Server for Git Bash or terminal
    `wintpty python manage.py runserver` OR
    `python manage.py runserver`
     
-  
-9. Install Container and Database clients
+- Install Container and Database clients
   - Docker Container (Docker Hub)
   - Microsoft SQL Server
   - MySQL Workbench
