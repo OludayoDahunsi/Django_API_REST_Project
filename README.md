@@ -82,8 +82,8 @@ Create a project folder
 
 5. Adding the rest framework into your settings
    
-     ` INSTALLED_APPS = [
-   'rest_framework', ] `
+     ` ` ` INSTALLED_APPS = [
+   'rest_framework', ] ` ` `
 6. Running the Server
    `python manage.py runserver`
   
@@ -114,6 +114,8 @@ This process of building the endpoints involves creating API
       #### Url - 
       #### Admin -admin.py This is where models are registered
       #### and permissions. You can also use generics, mixins, view sets, and routers to simplify your API code
+
+      
 ## 3. Usage
 Explain how to use the system. This could include:
 
