@@ -10,7 +10,7 @@ The software currently runs a deprecated version of the Sencha Torch framework a
 support and has reached its end of life. This makes this program unreliable and an insecure stack of technology.
 
 ### Project Purpose and scope
-The purpose of the project is to evaluate the current existing backend functionality and source code artifacts. 
+The project aims to evaluate the current existing backend functionality and source code artifacts. 
 - Reengineer the SAFEHR backend endpoint,
 - Migrate the SAFEHR Endpoint to a new mainstream framework and
 - Enhance the functionalities
@@ -118,8 +118,9 @@ Install Other Dependencies
 
 ## 3. Build the  API Endpoints using Django REST Framework:
 This process of building the endpoints involves creating API 
-      #### Views: view.py  This handles the request and response for webpage application
-      #### Serializers: serializers -  
+    ```
+     - #### Views: view.py  This handles the request and response for webpage application
+     - #### Serializers: serializers -  
       #### setting up models: models.py This is used to define the data models for the app
       #### Url - 
       #### Admin -admin.py This is where models are registered
