@@ -41,7 +41,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### If you decide to clone the repository, and run in a containerized environment. You do not need a fresh install of the Django and Django REST Framework 
 
-### Cloning the repository and Installation dependencies
+### Cloning the repository Or Installing Afresh
+
 This step-by-step series shows you how to get a development environment running:
 1. Install dependencies
   - Python 3.12.3
@@ -50,22 +51,12 @@ This step-by-step series shows you how to get a development environment running:
   - MySQL Workbench
 2. Clone the repository
 3. Run the server
-   From git bash, activate the virtual environment.
-   source venv/Script/
-
-
-### Installing
-A step by step series of examples that tell you how to get a development environment running:
-1. Clone the repository
-2. Install dependencies
-  - Python 3.12.3
-3. Run the server:
 ###  Running from Git bash, activate the virtual environment.
 `source venv/Script/activate`
 
 ###  Running from the VScode terminal
-Navigate to the virtual directory
 `cd venv/Script/activate`
+
 
 
 
