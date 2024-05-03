@@ -39,11 +39,8 @@ These instructions will get you a copy of the project up and running on your loc
 - Git Bash
 - Postman
 
-### If you decide to clone the repository, You need not install the Django and Django REST Framework
-- Python 3.12.3
-- Install the GitHub Desktop
-- Docker Container
-- Postman
+### If you decide to clone the repository, and run in a containerized environment. You do not need a fresh install of the Django and Django REST Framework 
+
 
 
 ### Installing
