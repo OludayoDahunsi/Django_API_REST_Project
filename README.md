@@ -90,7 +90,7 @@ This step-by-step series shows you how to get a development environment running:
     'backendapp',
     ]
 
-- Running the Server for Git Bash or terminal
+- Running the Server from Git Bash or terminal, these are the command in order of arrangement
    `wintpty python manage.py runserver` OR
    `python manage.py runserver`
     
