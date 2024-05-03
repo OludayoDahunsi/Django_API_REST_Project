@@ -93,6 +93,7 @@ Create a project folder
     'rest_framework',
     'backendapp',
 ] ```
+
 6. Running the Server
    `python manage.py runserver`
   
