@@ -149,8 +149,8 @@ urlpatterns = [
 
 
 ## Setting up the database 
-      ### For the purpose of the project, we have created the SAFEHR2 Database for both MySQL and MSSQL
-      ### Install pyodbc and pysql drivers (check the documentation headings provided below)
+   - For the purpose of the project, we have created the SAFEHR2 Database for both MySQL and MSSQL
+   - Install pyodbc and pysql drivers (check the documentation headings provided below)
     
   #### MSSQL Database
   #### Documentation: https://pypi.org/project/mssql-django/
