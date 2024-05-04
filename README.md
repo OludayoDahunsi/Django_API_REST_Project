@@ -191,10 +191,10 @@ urlpatterns = [
 ## 3. Building the Endpoints using Django REST Framework:
 This is process of building the endpoints involves creating the
   - Views: view.py  This handles the request and response for webpage application
-     - Serializers: serializers -  
-     - Setting up models: models.py This is used to define the data models for the app
-     - Url - 
-     - Admin -admin.py This is where models are registered
+  - Serializers: serializers -  
+  - Setting up models: models.py This is used to define the data models for the app
+  - Router in the URL(Url.py located in the API app i.e backendapp) - 
+  - Admin -admin.py This is where models are registered
       #### and permissions. You can also use generics, mixins, view sets, and routers to simplify your API code
 
       
