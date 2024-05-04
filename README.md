@@ -89,7 +89,7 @@ This step-by-step series shows you how to get a development environment running:
     'rest_framework',
     ]
 
-- Migrate all the Django program
+- Migrate all the Django programs installed
    `  python manage.py migrate `
   
 
