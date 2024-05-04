@@ -102,7 +102,7 @@ This step-by-step series shows you how to get a development environment running:
 Install Other Dependencies
    - 
    
- ### Creating Django App
+ ### Creating Django App with startapp (App is called Backendapp)
      `  python manage.py startapp Backendapp ` 
 
 
