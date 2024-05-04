@@ -247,7 +247,7 @@ State which versioning methodology you are using, if any.
 
 ```markdown
 ## Versioning
-We use [SemVer](http://semver.org/) for versioning.
+We use [Github](https://github.com/) for versioning.
 ```
 
 ## 8. Authors
