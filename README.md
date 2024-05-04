@@ -142,14 +142,48 @@ urlpatterns = [
     
 ]
   ```
+
  ### Accessing the created admin at 127.0.0.1:8000/admin
- - username: admin
- - password: safehrapi
+   - username: admin
+   - password: safehrapi
+
+## Setting up the database 
+    -  Install pyodbc and pysql drivers (check the documentation headings provided below)
+    
+  #### MSSQL Database
+  ##### Documentation: https://pypi.org/project/mssql-django/
+  DATABASES = {
+        'default': {
+            'ENGINE': 'mssql',
+            'NAME': 'SAFEHR',
+            'USER': 'sa',
+            'PASSWORD': 'academic2024CS680!',
+            'HOST': 'campus-quest.com',
+            'PORT': '20011',
+
+            'OPTIONS': {
+                'driver': 'ODBC Driver 17 for SQL Server',
+            },
+        },
+    }
 
 
 
+##### MySQL Database
+#### Documentation: https://pypi.org/project/mysqlclient/
+  DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.mysql',
+            'NAME': 'Safehr',
+            'USER': 'root',
+            'PASSWORD': 'academic2024CS680!',
+            'HOST': 'campus-quest.com',
+            'PORT': '20010',
+        },
+    }
 
-## Setting up the database
+
+  
 ## Other necessary configuration
 
 
