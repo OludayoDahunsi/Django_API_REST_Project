@@ -221,8 +221,10 @@ This explains how to use the system. This  includes:
 - How to make API calls ( with `POSTMAN`).
 - Output responses are expected from each endpoint.
 - The response depends on the particular endpoint you called
+```
 
 ```
+
 ## Usage
 Here are some examples of how to use the API:
 
@@ -244,16 +246,9 @@ Here are some examples of how to use the API:
 
 "Persons": "http://127.0.0.1:8000/Persons/1/"
 
-
-## Handling Errors
-- How to handle errors.
-If you encounter an error, check the errors
-  - VS code Terminal or the Git Bash Terminal
-  - Locate the line where the error occurred
-  - The clue to error handling error is to take time read the errors output on the terminal
-
-
 ```
+
+
 
 ## 6. Running the Tests
 Running the automated tests for this project.
@@ -266,6 +261,16 @@ Running the automated tests for this project.
 
 ## Run a GET, POST, DELETE from the POSTMAN
 ` You will be able to GET, POST, DELETE.`
+
+```
+
+```
+## Handling Errors
+- How to handle errors.
+If you encounter an error, check the errors
+  - VS code Terminal or the Git Bash Terminal
+  - Locate the line where the error occurred
+  - The clue to error handling is to take time to read the error output on the terminal
 
 ```
 
