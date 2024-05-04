@@ -201,9 +201,11 @@ This is process of building the endpoints involves creating the
 ## 3. Usage
 Explain how to use the system. This could include:
 
-- How to make API calls (include examples with `curl` or another tool).
-- What kind of responses to expect.
+- How to make API calls ( with `postman`).
+- Output responses to expect from each endpoint.
+  - The response depends on the particular API you called
 - How to handle errors.
+  - If you encounter an error check the item and the endpoints 
 
 ```markdown
 ## Usage
@@ -243,11 +245,10 @@ Please read CONTRIBUTING.md for details on our code of conduct, and the process 
 ```
 
 ## 7. Versioning
-State which versioning methodology you are using, if any.
 
-```markdown
+```
 ## Versioning
-We use [Github](https://github.com/) for versioning.
+We use Github(https://github.com/) for versioning.
 ```
 
 ## 8. Authors
