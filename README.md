@@ -222,13 +222,6 @@ This explains how to use the system. This  includes:
 - Output responses are expected from each endpoint.
 - The response depends on the particular endpoint you called
 
-## Handling Errors
-- How to handle errors.
-If you encounter an error, check the errors
-  - VS code Terminal or the Git Bash Terminal
-  - Locate the line where the error occurred
-  - The clue to error handling is in the terminal
-
 ```
 ## Usage
 Here are some examples of how to use the API:
@@ -250,6 +243,15 @@ Here are some examples of how to use the API:
 `GET /api/patient/{id}/`
 
 "Persons": "http://127.0.0.1:8000/Persons/1/"
+
+
+## Handling Errors
+- How to handle errors.
+If you encounter an error, check the errors
+  - VS code Terminal or the Git Bash Terminal
+  - Locate the line where the error occurred
+  - The clue to error handling error is to take time read the errors output on the terminal
+
 
 ```
 
