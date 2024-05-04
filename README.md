@@ -207,7 +207,7 @@ This process of building the endpoints involves creating the
 ## 4. Make a Migration
 After each model is set, make a migration and migrate the models to the Databases.
 
-```markdown
+```
 ## Make Migration
     - python manage.py makemigrations
 ## Migrate
@@ -216,6 +216,8 @@ After each model is set, make a migration and migrate the models to the Database
 
       
 ## 5. Usage
+
+```
 This explains how to use the system. This  includes:
 
 - How to make API calls ( with `POSTMAN`).
@@ -223,13 +225,13 @@ This explains how to use the system. This  includes:
 - The response depends on the particular endpoint you called
 ```
 
-```
 
 ## Usage
 Here are some examples of how to use the API:
 
 ### Get a list of all patient
-``` `GET /api/patient/`
+``` 
+    `GET /api/patient/`
 
     "Persons": "http://127.0.0.1:8000/Persons/",
     "Person_Address": "http://127.0.0.1:8000/Person_Address/",
