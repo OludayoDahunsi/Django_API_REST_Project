@@ -175,7 +175,7 @@ urlpatterns = [
   DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.mysql',
-            'NAME': 'Safehr',
+            'NAME': 'Safehr2',
             'USER': 'root',
             'PASSWORD': 'academic2024CS680!',
             'HOST': 'campus-quest.com',
