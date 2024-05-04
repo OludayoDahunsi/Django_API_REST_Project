@@ -152,6 +152,7 @@ urlpatterns = [
     
   #### MSSQL Database
   ##### Documentation: https://pypi.org/project/mssql-django/
+  ```
   DATABASES = {
         'default': {
             'ENGINE': 'mssql',
@@ -166,11 +167,12 @@ urlpatterns = [
             },
         },
     }
-
+  ```
 
 
 ##### MySQL Database
 #### Documentation: https://pypi.org/project/mysqlclient/
+  ```
   DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.mysql',
@@ -181,8 +183,7 @@ urlpatterns = [
             'PORT': '20010',
         },
     }
-
-
+  ```
   
 ## Other necessary configuration
 
