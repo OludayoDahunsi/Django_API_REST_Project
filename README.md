@@ -169,7 +169,6 @@ urlpatterns = [
     }
   ```
 
-
 ##### MySQL Database
 #### Documentation: https://pypi.org/project/mysqlclient/
   ```
@@ -189,15 +188,9 @@ urlpatterns = [
 
 
 
-
-
-
-
-
-## 3. Build the  API Endpoints using Django REST Framework:
-This process of building the endpoints involves creating API 
-  
-     - Views: view.py  This handles the request and response for webpage application
+## 3. Building the Endpoints using Django REST Framework:
+This is process of building the endpoints involves creating the
+  - Views: view.py  This handles the request and response for webpage application
      - Serializers: serializers -  
      - Setting up models: models.py This is used to define the data models for the app
      - Url - 
