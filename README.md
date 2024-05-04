@@ -87,9 +87,13 @@ This step-by-step series shows you how to get a development environment running:
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'backendapp',
     ]
 
+- Migrate all the Django program
+   `  python manage.py migrate `
+  
+
+  
 - Running the Server from Git Bash or terminal, these are the command in order of arrangement
    `wintpty python manage.py runserver` OR
    `python manage.py runserver`
@@ -102,9 +106,26 @@ This step-by-step series shows you how to get a development environment running:
 Install Other Dependencies
    - 
    
- ### Creating Django App with startapp (App is called Backendapp)
-     `  python manage.py startapp Backendapp ` 
+ ### Creating Django App with startapp 
+     `  python manage.py startapp backendapp ` 
 
+     
+ ### Adding the backendapp into your settings
+    ```
+    INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'rest_framework',
+    'backendapp',
+    ]
+
+
+ ### Create a URL in the backendapp  to display API endpoints ` urls.py `
+ ``` Configure the
 
 
 ## Installing other dependencies
