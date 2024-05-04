@@ -256,8 +256,8 @@ Running the automated tests for this project.
 ` http://127.0.0.1:8000/Persons/1/ `
 
 ## Run a GET, POST< DELECT from the POSTMAN
-` Every data access via DJANGO URL will be populated`
-## 
+` Every data access via DJANGO URL will be populated in POSTMAN.`
+
 ```
 
 ## 7. Versioning
