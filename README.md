@@ -253,17 +253,21 @@ We use [SemVer](http://semver.org/) for versioning.
 ## 8. Authors
 Acknowledge those who contributed to the project.
 
-```markdown
+```
 ## Authors
-- Your Name - Initial work - [YourName](https://github.com/yourname)
+- ​​Oludayo A Dahunsi   - https://github.com/OludayoDahunsi
+- Joy Chepkirui - https://github.com/JoyChepkirui1
+- Manojkumar Rajanna - https://github.com/Manoj9901
+- ​Victor Chirchir 
+- Solomon Aryee
+
 ```
 
-## 9. License
+## 9. Project Approval 
 
-This project is licensed and approved under supervision of Professor Flint Million, Minnesota State University Mankato after the proposal approval
+This project is approved and implemented under the supervision of Professor Flint Million, Minnesota State University Mankato.
 
 ## 10. Acknowledgments
-- I wHat tip to anyone whose code was used
-- Inspiration
-- etc
+- I appreciate everyone's contributions to this project. Your contributions have been invaluable, and your coding skills are truly impressive. 
+- Thank you for your hard work and dedication.
 ```
