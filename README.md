@@ -133,7 +133,7 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('backendapp.urls'))
-
+  ```
 
 ### Create a URL in the backendapp  to display API endpoints ` urls.py `
  ```
@@ -145,7 +145,6 @@ from . import views
 urlpatterns = [
 
     path ('', include(router.urls))
-
     
 ]
 
