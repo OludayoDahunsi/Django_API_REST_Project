@@ -143,7 +143,7 @@ urlpatterns = [
 ]
   ```
 
- ### Accessing the created admin at 127.0.0.1:8000/admin
+### Accessing the created admin at 127.0.0.1:8000/admin
    - username: admin
    - password: safehrapi
 
@@ -151,7 +151,7 @@ urlpatterns = [
     -  Install pyodbc and pysql drivers (check the documentation headings provided below)
     
   #### MSSQL Database
-  ##### Documentation: https://pypi.org/project/mssql-django/
+  #### Documentation: https://pypi.org/project/mssql-django/
   ```
   DATABASES = {
         'default': {
@@ -169,7 +169,7 @@ urlpatterns = [
     }
   ```
 
-##### MySQL Database
+#### MySQL Database
 #### Documentation: https://pypi.org/project/mysqlclient/
   ```
   DATABASES = {
@@ -204,13 +204,12 @@ After each model is set make a migration and migrate the models to the Databases
 ```markdown
 ## Make Migration
     - python manage.py makemigrations
-# Migrate
-    - - python manage.py makemigrations
+## Migrate
+    - python manage.py migrate
 ```
 
-
       
-## 3. Usage
+## 5. Usage
 Explain how to use the system. This could include:
 
 - How to make API calls ( with `postman`).
@@ -230,7 +229,7 @@ Here are some examples of how to use the API:
 `GET /api/items/{id}/`
 ```
 
-## 4. Running the Tests
+## 6. Running the Tests
 Explain how to run the automated tests for this system.
 
 ```markdown
@@ -240,27 +239,11 @@ Explain how to run the automated tests for this system:
 `python manage.py test`
 ```
 
-## 5. Deployment
-Add additional notes about how to deploy this on a live system.
-
-```markdown
-## Deployment
-Add additional notes about how to deploy this on a live system.
-```
-
-## 6. Contributing
-If you want others to contribute to the project, provide instructions on how they should do so.
-
-```markdown
-## Contributing
-Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
-```
-
 ## 7. Versioning
 
 ```
 ## Versioning
-We use Github(https://github.com/) for versioning.
+We use GitHub (https://github.com/) for versioning.
 ```
 
 ## 8. Authors
