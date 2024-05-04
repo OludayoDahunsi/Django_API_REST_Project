@@ -251,8 +251,6 @@ We use [SemVer](http://semver.org/) for versioning.
 ```
 
 ## 8. Authors
-Acknowledge those who contributed to the project.
-
 ```
 ## Authors
 - ​​Oludayo A Dahunsi   - https://github.com/OludayoDahunsi
@@ -264,10 +262,12 @@ Acknowledge those who contributed to the project.
 ```
 
 ## 9. Project Approval 
-
-This project is approved and implemented under the supervision of Professor Flint Million, Minnesota State University Mankato.
+```
+This project is approved course code CIS 680 and implemented under the supervision of Professor Flint Million, Minnesota State University Mankato.
+```
 
 ## 10. Acknowledgments
+```
 - I appreciate everyone's contributions to this project. Your contributions have been invaluable, and your coding skills are truly impressive. 
 - Thank you for your hard work and dedication.
 ```
