@@ -180,6 +180,10 @@ urlpatterns = [
             'PASSWORD': 'academic2024CS680!',
             'HOST': 'campus-quest.com',
             'PORT': '20010',
+
+            'OPTIONS': {
+                'sql_mode': 'STRICT_TRANS_TABLES',
+            }
         },
     }
   ```
@@ -216,27 +220,42 @@ Explain how to use the system. This could include:
 - Output responses to expect from each endpoint.
   - The response depends on the particular API you called
 - How to handle errors.
-  - If you encounter an error check the item and the endpoints 
+  - If you encounter an error, check the item and the endpoints 
 
-```markdown
+```
 ## Usage
 Here are some examples of how to use the API:
 
-### Get a list of all items
-`GET /api/items/`
+### Get a list of all patient
+``` `GET /api/patient/`
 
-### Get a specific item
-`GET /api/items/{id}/`
+    "Persons": "http://127.0.0.1:8000/Persons/",
+    "Person_Address": "http://127.0.0.1:8000/Person_Address/",
+    "Person_Organization": "http://127.0.0.1:8000/Person_Organization/",
+    "Person_Phone": "http://127.0.0.1:8000/Person_Phone/",
+    "Person_Historical_Diagnostic": "http://127.0.0.1:8000/Person_Historical_Diagnostic/",
+    "Address": "http://127.0.0.1:8000/Address/",
+    "Diagnostic": "http://127.0.0.1:8000/Diagnostic/",
+    "Organization_Address": "http://127.0.0.1:8000/Organization_Address/",
+    "Clinic": "http://127.0.0.1:8000/Clinic/"
+
+### Get a specific patient
+`GET /api/patient/{id}/`
+
+"Persons": "http://127.0.0.1:8000/Persons/1/"
+
 ```
 
 ## 6. Running the Tests
-Explain how to run the automated tests for this system.
+Running the automated tests for this project.
+```
+## Copy the endpoint URL into the POSTMAN
 
-```markdown
-## Running the Tests
-Explain how to run the automated tests for this system:
+` http://127.0.0.1:8000/Persons/1/ `
 
-`python manage.py test`
+## Run a GET, POST< DELECT from the POSTMAN
+` Every data access via DJANGO URL will be populated`
+## 
 ```
 
 ## 7. Versioning
