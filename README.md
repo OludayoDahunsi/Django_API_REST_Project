@@ -90,9 +90,7 @@ This step-by-step series shows you how to get a development environment running:
     ]
 
 - Migrate all the Django programs installed
-   `  python manage.py migrate `
-  
-
+   `  python manage.py migrate  `
   
 - Running the Server from Git Bash or terminal, these are the command in order of arrangement
    `wintpty python manage.py runserver` OR
@@ -102,14 +100,11 @@ This step-by-step series shows you how to get a development environment running:
   - Docker Container (Docker Hub)
   - Microsoft SQL Server
   - MySQL Workbench
-
-Install Other Dependencies
-   - 
    
  ### Creating Django App with startapp 
-     `  python manage.py startapp backendapp ` 
+     `  python manage.py startapp backendapp  ` 
 
-     
+ 
  ### Adding the backendapp into your settings
     ```
     INSTALLED_APPS = [
@@ -124,7 +119,7 @@ Install Other Dependencies
     ]
 
 
- ### Configure the URL.py in safehr directory 
+ ### Configure the url.py in safehr directory 
  ```  url.py in the safehr
 
 from django.contrib import admin
@@ -137,7 +132,6 @@ urlpatterns = [
 
 ### Create a URL in the backendapp  to display API endpoints ` urls.py `
  ```
- url.py in the backendapp
  
 from django.urls import path, include
 from . import views
@@ -147,10 +141,14 @@ urlpatterns = [
     path ('', include(router.urls))
     
 ]
+  ```
+ ### Accessing the created admin at 127.0.0.1:8000/admin
+ - username: admin
+ - password: safehrapi
 
 
 
-## Installing other dependencies
+
 ## Setting up the database
 ## Other necessary configuration
 
