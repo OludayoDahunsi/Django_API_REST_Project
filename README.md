@@ -216,13 +216,18 @@ After each model is set, make a migration and migrate the models to the Database
 
       
 ## 5. Usage
-Explain how to use the system. This could include:
+This explains how to use the system. This  includes:
 
-- How to make API calls ( with `postman`).
-- Output responses to expect from each endpoint.
-  - The response depends on the particular API you called
+- How to make API calls ( with `POSTMAN`).
+- Output responses are expected from each endpoint.
+- The response depends on the particular endpoint you called
+
+## Handling Errors
 - How to handle errors.
-  - If you encounter an error, check the item and the endpoints 
+If you encounter an error, check the errors
+  - VS code Terminal or the Git Bash Terminal
+  - Locate the line where the error occurred
+  - The clue to error handling is in the terminal
 
 ```
 ## Usage
@@ -241,7 +246,7 @@ Here are some examples of how to use the API:
     "Organization_Address": "http://127.0.0.1:8000/Organization_Address/",
     "Clinic": "http://127.0.0.1:8000/Clinic/"
 
-### Get a specific patient
+### Get a specific patient detail
 `GET /api/patient/{id}/`
 
 "Persons": "http://127.0.0.1:8000/Persons/1/"
@@ -255,8 +260,10 @@ Running the automated tests for this project.
 
 ` http://127.0.0.1:8000/Persons/1/ `
 
-## Run a GET, POST< DELECT from the POSTMAN
 ` Every data access via DJANGO URL will be populated in POSTMAN.`
+
+## Run a GET, POST, DELETE from the POSTMAN
+` You will be able to GET, POST, DELETE.`
 
 ```
 
