@@ -124,13 +124,41 @@ Install Other Dependencies
     ]
 
 
- ### Create a URL in the backendapp  to display API endpoints ` urls.py `
- ``` Configure the
+ ### Configure the URL.py in safehr directory 
+ ```  url.py in the safehr
+
+from django.contrib import admin
+from django.urls import path, include
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('', include('backendapp.urls'))
+
+
+### Create a URL in the backendapp  to display API endpoints ` urls.py `
+ ```
+ url.py in the backendapp
+ 
+from django.urls import path, include
+from . import views
+
+urlpatterns = [
+
+    path ('', include(router.urls))
+
+    
+]
+
 
 
 ## Installing other dependencies
 ## Setting up the database
 ## Other necessary configuration
+
+
+
+
+
 
 
 
