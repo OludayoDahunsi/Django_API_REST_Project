@@ -160,7 +160,7 @@ urlpatterns = [
             'ENGINE': 'mssql',
             'NAME': 'SAFEHR',
             'USER': 'sa',
-            'PASSWORD': 'academic2024CS680!',
+            'PASSWORD': 'DDDDDDDDDDD',
             'HOST': 'campus-quest.com',
             'PORT': '20011',
 
@@ -179,7 +179,7 @@ urlpatterns = [
             'ENGINE': 'django.db.backends.mysql',
             'NAME': 'Safehr2',
             'USER': 'root',
-            'PASSWORD': 'academic2024CS680!',
+            'PASSWORD': 'DDDDDDDDDDD!',
             'HOST': 'campus-quest.com',
             'PORT': '20010',
 
