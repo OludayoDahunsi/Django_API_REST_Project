@@ -81,7 +81,7 @@ DATABASES = {
             'ENGINE': 'mssql',
             'NAME': 'SAFEHR2',
             'USER': 'sa',
-            'PASSWORD': 'academic2024CS680!',
+            'PASSWORD': 'DDDDDDDDDDD!',
             'HOST': 'campus-quest.com',
             'PORT': '20011',
 
